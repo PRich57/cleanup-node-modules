@@ -19,7 +19,7 @@ This Python script helps you reclaim disk space by removing `node_modules` direc
 ## Installation
 
 1. Clone this repository or download the `cleanup_node_modules.py` script.
-2. Ensure you have Python 3.6+ installed on your system.
+2. Ensure you have Python 3.9+ installed on your system.
 
 ## Usage
 
@@ -71,15 +71,6 @@ When using the script on Windows, you may need to adjust how you input file path
 - `directory`: The root directory to start searching from.
 - `--dry-run`: Perform a dry run without actually deleting anything.
 - `--max-depth`: Maximum depth to search for node_modules directories.
-
-## Best Practices Implemented
-
-- Modular design with separate functions for distinct operations
-- Use of type hints for improved code readability and potential static type checking
-- Clear separation of concerns in function responsibilities
-- Descriptive variable names and self-documenting code
-- Consistent error handling and user feedback
-- Cross-platform path handling using the `pathlib` library
 
 ## Caution
 
